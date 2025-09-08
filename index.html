@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Étudiante en Informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Pour les icônes -->
+</head>
+<body>
+    <div class="background-animation"></div>
+
+    <header>
+        <nav>
+            <div class="logo"><span>Sira</span>Portfolio</div>
+            <ul>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Bonjour, je suis <span id="animated-name"></span></h1>
+                <p class="subtitle"></p>
+                <a href="#projects" class="cta-button">Découvrir mes projets</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="profile-picture">
+                    <img src="SIRA.jpg" alt="Photo de profil">
+                </div>
+                <div class="about-text">
+                    <p>Jeune diplômée en Informatique de Gestion (Bac+3, ESGIC), ayant acquis des compétences solides en développement web (HTML, CSS, PHP, MySQL) et en conception de bases de données. J'ai réalisée des projets académiques concrets, notamment une base de données pour la gestion des dates de mariage et un chatbot web interactif.Je dispose également de bases en C++, Java et Python. Curieuse, motivée et organisée, elle cherche à mettre en pratique ses connaissances dans un environnement professionnel afin de développer davantage mon expertise technique.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Mes Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Langages</h3>
+                    <div class="skill-item">
+                        <h4>PHP</h4>
+                        <p><ul>
+                            <li>Connexion à une base de données MySQL</li>
+                            <li>Traitement des formulaires (GET, POST)</li>
+                            <li>Gestion de sessions et variables</li>
+                            <li>Affichage dynamique de contenus</li>
+                        </ul></p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>HTML&CSS</h4>
+                        <p><ul>
+                            <li>Structure de pages web avec HTML5 (titres, paragraphes, formulaires, tableaux, liens, images)</li>
+                            <li>Mise en forme avec CSS (couleurs, polices, marges, bordures, arrière-plan)</li>
+                            <li>Création de layouts simples (flexbox, grid)</li>
+                            <li>Réalisation de pages responsives (adaptées aux différents écrans)</li>
+                        </ul></p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>C++</h4>
+                        <p><ul>
+                            <li>Variables, types de données et opérateurs</li>
+                            <li>Structures de contrôle : conditions (if/else), boucles (for, while)</li>
+                            <li>Tableaux et manipulation de données</li>
+                            <li>Introduction à la programmation orientée objet (classes, objets)</li>
+                        </ul></p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Langages</h3>
+                    <div class="skill-item">
+                        <h4>JAVA</h4>
+                        <p><ul>
+                            <li>Syntaxe et structures de contrôle (if, switch, boucles)</li>
+                            <li>Déclaration et manipulation de classes et objets</li>
+                            <li>Gestion de chaînes de caractères et tableaux</li>
+                            <li>Méthodes et encapsulation</li>
+                        </ul></p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>JAVASCRIPT</h4>
+                        <p><ul>
+                            <li>Variables et types de données</li>
+                            <li>Structures de contrôle (if, for, while)</li>
+                            <li>Manipulation basique du DOM (sélection et modification d’éléments HTML)</li>
+                            <li>Gestion d’événements simples (onclick, onsubmit...)</li>
+                        </ul></p>
+                    </div>
+                      <div class="skill-item">
+                        <h4>PYTHON</h4>
+                        <p><ul>
+                            <li>Variables, types et opérations</li>
+                            <li>Boucles et conditions</li>
+                            <li>Listes, dictionnaires et tuples</li>
+                            <li>Fonctions simples</li>
+                            <li>Écriture de scripts courts pour automatiser des tâches</li>
+                        </ul></p>
+                        </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Outils & Bases de Données</h3>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>Oracle</li>
+                        <li>SQL / MySQL</li>
+                        <li>XAMPP </li>
+                        <li>VSCODE</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Systeme d'information automatisé de date de marriage</h3>
+                    <p>Permettre aux futurs mariés de consulter et réserver des dates disponibles pour leur mariage.</p>
+                    <div class="project-tags">
+                        <span>PHP</span><span>JAVASCRIPT</span><span>HTML&CSS</span><span>MYSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Voir le Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>ChatBot Web</h3>
+                    <p>Une application web interactive permettant aux utilisateurs de dialoguer avec un chatbot et d’obtenir des réponses automatiques..</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Flask</span><span>Machine Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Voir le Code</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-moi</h2>
+            <p>N'hésitez pas à me contacter pour toute question ou opportunité.</p>
+            <a href="mailto:siradiarra188@gmail.com" class="cta-button">Envoyer un email</a>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sira Diarra. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
