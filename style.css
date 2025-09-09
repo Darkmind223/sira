@@ -29,8 +29,6 @@ body {
     line-height: 1.6;
 }
 
-
-
 /* --- Sections & Conteneurs --- */
 section {
     padding: 6rem 5%;
@@ -135,6 +133,25 @@ nav ul li a:hover {
     background: var(--primary-color);
     color: var(--background-color);
     box-shadow: 0 0 20px var(--primary-glow-color);
+}
+
+/* --- Section À Propos --- */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.profile-picture {
+    flex-shrink: 0; /* Empêche l'image de rétrécir */
+}
+
+.profile-picture img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
 }
 
 /* --- Section Compétences --- */
@@ -266,4 +283,28 @@ footer {
     text-align: center;
     padding: 2rem 5%;
     background: var(--surface-color);
+}
+
+/* --- Media Queries pour la Responsivité --- */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        display: none; /* Cache le menu principal sur mobile, une version plus avancée nécessiterait un menu hamburger en JS */
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills-grid, .projects-grid {
+        grid-template-columns: 1fr;
+    }
 }
