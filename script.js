@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const phrases = [
         "Sira Diarra",
         "Étudiante en Informatique",
-        "Développeuse Junior",
+        "Aspirante Data Analyst",
         "Passionnée de technologie",
         "et d'innovation",
         "Toujours motivée à apprendre"
